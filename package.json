@@ -1,0 +1,28 @@
+{
+  "name": "readsw",
+  "version": "1.0.0",
+  "description": "Ambalabu",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js --pairing-code"
+  },
+  "keywords": [
+    "autoreadsw",
+    "baileys"
+  ],
+  "author": "Wily Kun",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "latest",
+    "cfonts": "^3.3.0",
+    "chalk": "^5.3.0",
+    "dotenv": "latest",
+    "file-type": "latest",
+    "fluent-ffmpeg": "latest",
+    "node-webpmux": "latest",
+    "pino": "^9.5.0",
+    "qrcode-terminal": "latest"
+  }
+}
